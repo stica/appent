@@ -1,0 +1,12 @@
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\netcoreapp3.1\Start.Infrastructure.dll
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.csprojAssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\netcoreapp3.1\Start.Common.deps.json
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\netcoreapp3.1\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\netcoreapp3.1\Start.Common.pdb
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\netcoreapp3.1\Start.Infrastructure.pdb
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.csproj.CopyComplete
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\netcoreapp3.1\Start.Common.pdb

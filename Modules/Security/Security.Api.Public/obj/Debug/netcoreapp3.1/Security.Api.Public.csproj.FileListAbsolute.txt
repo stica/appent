@@ -1,0 +1,11 @@
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\bin\Debug\netcoreapp3.1\Security.Api.Public.deps.json
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\bin\Debug\netcoreapp3.1\Security.Api.Public.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.csprojAssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\bin\Debug\netcoreapp3.1\Security.Api.Public.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\bin\Debug\netcoreapp3.1\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\bin\Debug\netcoreapp3.1\Security.Domain.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Public\obj\Debug\netcoreapp3.1\Security.Api.Public.csproj.CopyComplete

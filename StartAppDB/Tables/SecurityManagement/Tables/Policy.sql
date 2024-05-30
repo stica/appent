@@ -1,0 +1,7 @@
+﻿CREATE TABLE [SecurityManagement].[Policy]
+(
+	[Id] INT NOT NULL IDENTITY (1, 1),
+	[Name] NVARCHAR(50) NOT NULL,
+	[JSONDocument] NVARCHAR(MAX) NOT NULL,
+	CONSTRAINT [PK_Policy] PRIMARY KEY CLUSTERED (Id ASC)
+);

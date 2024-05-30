@@ -1,0 +1,9 @@
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\netcoreapp3.1\Security.Domain.deps.json
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\netcoreapp3.1\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.csprojAssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\netcoreapp3.1\Security.Domain.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\netcoreapp3.1\Security.Domain.pdb

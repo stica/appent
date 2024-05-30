@@ -1,0 +1,17 @@
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Security.Domain.deps.json
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Security.Domain.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Start.Infrastructure.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Start.Common.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\bin\Debug\net6.0\Start.Infrastructure.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.csproj.AssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.csproj.CopyComplete
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\refint\Security.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\Security.Domain.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Domain\obj\Debug\net6.0\ref\Security.Domain.dll

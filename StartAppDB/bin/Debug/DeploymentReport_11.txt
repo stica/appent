@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [SecurityManagement].[UserGroupPolicy] (Table)
+       [SecurityManagement].[FK_UserGroupPolicy_Policy] (Foreign Key)
+       [SecurityManagement].[FK_UserGroupPolicy_UserGroup] (Foreign Key)
+
+** Supporting actions

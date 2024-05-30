@@ -1,0 +1,9 @@
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\bin\Debug\netcoreapp3.1\Security.Api.Admin.deps.json
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\bin\Debug\netcoreapp3.1\Security.Api.Admin.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.csprojAssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\bin\Debug\netcoreapp3.1\Security.Api.Admin.pdb
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.dll
+C:\Users\ticas\source\repos\Start\Modules\Security\Security.Api.Admin\obj\Debug\netcoreapp3.1\Security.Api.Admin.pdb

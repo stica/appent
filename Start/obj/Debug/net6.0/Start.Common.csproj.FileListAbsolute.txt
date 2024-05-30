@@ -1,0 +1,15 @@
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\net6.0\Start.Common.deps.json
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\net6.0\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\net6.0\Start.Common.pdb
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\net6.0\Start.Infrastructure.dll
+C:\Users\ticas\source\repos\Start\Start\bin\Debug\net6.0\Start.Infrastructure.pdb
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.csproj.AssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.csproj.CopyComplete
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\refint\Start.Common.dll
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\Start.Common.pdb
+C:\Users\ticas\source\repos\Start\Start\obj\Debug\net6.0\ref\Start.Common.dll

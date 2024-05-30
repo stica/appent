@@ -1,0 +1,9 @@
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\netcoreapp3.1\ReferenceData.Domain.deps.json
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\netcoreapp3.1\ReferenceData.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.csprojAssemblyReference.cache
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.AssemblyInfoInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.AssemblyInfo.cs
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\netcoreapp3.1\ReferenceData.Domain.pdb
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.dll
+C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\netcoreapp3.1\ReferenceData.Domain.pdb

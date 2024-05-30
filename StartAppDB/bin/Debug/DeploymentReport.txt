@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Category] (Table)
+       [dbo].[Comment] (Table)
+       [dbo].[Message] (Table)
+       [dbo].[Offer] (Table)
+       [dbo].[Post] (Table)
+       [dbo].[PostImage] (Table)
+       [dbo].[User] (Table)
+       [dbo].[UserCategory] (Table)
+       [dbo].[UserImage] (Table)
+       [dbo].[FK_Category_Category] (Foreign Key)
+       [dbo].[FK_Comment_User1] (Foreign Key)
+       [dbo].[FK_Comment_User2] (Foreign Key)
+       [dbo].[FK_Message_User1] (Foreign Key)
+       [dbo].[FK_Message_User2] (Foreign Key)
+       [dbo].[FK_Offer_User] (Foreign Key)
+       [dbo].[FK_Offer_Post] (Foreign Key)
+       [dbo].[FK_Post_User] (Foreign Key)
+       [dbo].[FK_PostImage_User] (Foreign Key)
+       [dbo].[FK_UserCategory_User] (Foreign Key)
+       [dbo].[FK_USerCategory_Category] (Foreign Key)
+       [dbo].[FK_UserImage_User] (Foreign Key)
+
+** Supporting actions

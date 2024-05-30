@@ -1,0 +1,6 @@
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\StartAppDB.dacpac
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\StartAppDB.dll
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\StartAppDB.pdb
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.dll
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.pdb
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.sqlproj.AssemblyReference.cache
