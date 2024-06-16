@@ -1,0 +1,10 @@
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\AppentDB.dacpac
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\StartAppDB.dll
+C:\Users\ticas\source\repos\Start\StartAppDB\bin\Debug\StartAppDB.pdb
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\AppentDB.sqlproj.AssemblyReference.cache
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\Model.xml
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\refactor.xml
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\postdeploy.sql
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\predeploy.sql
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.dll
+C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.pdb

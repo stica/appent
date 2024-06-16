@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Events] (Schema)
+       [SecurityManagement] (Schema)
+       [Events].[Activity] (Table)
+       [Events].[Event] (Table)
+       [Events].[EventAttendees] (Table)
+       [Events].[EventRating] (Table)
+       [Events].[FollowedActivity] (Table)
+       [SecurityManagement].[UserGroupPolicy] (Table)
+       [SecurityManagement].[UserGroup] (Table)
+       [SecurityManagement].[User] (Table)
+       [SecurityManagement].[Policy] (Table)
+       [SecurityManagement].[LoginSession] (Table)
+       [SecurityManagement].[UserUserGroup] (Table)
+       [SecurityManagement].[UserNotifications] (Table)
+       [Events].[FK_Event_Activity] (Foreign Key)
+       [Events].[FK_EventAttendees_Event] (Foreign Key)
+       [Events].[FK_EventAttendees_User] (Foreign Key)
+       [Events].[FK_EventRating_User] (Foreign Key)
+       [Events].[FK_EventRating_Event] (Foreign Key)
+       [Events].[FK_FollowedActivity_Activity] (Foreign Key)
+       [Events].[FK_FollowedActivity_User] (Foreign Key)
+       [SecurityManagement].[FK_UserGroupPolicy_Policy] (Foreign Key)
+       [SecurityManagement].[FK_UserGroupPolicy_UserGroup] (Foreign Key)
+       [SecurityManagement].[FK_LoginSession_User] (Foreign Key)
+       [SecurityManagement].[FK_UserUserGroup_User] (Foreign Key)
+       [SecurityManagement].[FK_UserUserGroup_UserGroup] (Foreign Key)
+       [SecurityManagement].[FK_UserNotifications_User] (Foreign Key)
+
+** Supporting actions

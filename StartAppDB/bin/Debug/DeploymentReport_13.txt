@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [SecurityManagement].[User].[CompanyId] is being dropped, data loss could occur.
+       The column [SecurityManagement].[User].[DateCreated] on table [SecurityManagement].[User] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+       The column [SecurityManagement].[User].[IsEnabled] on table [SecurityManagement].[User] must be added, but the column
+         has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To
+         avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the
+         generation of smart-defaults as a deployment option.
+
+** User actions
+     Drop
+       [SecurityManagement].[FK_User_Company] (Foreign Key)
+     Create
+       [Events] (Schema)
+       [Events].[Activity] (Table)
+       [Events].[Event] (Table)
+       [Events].[EventAttendees] (Table)
+       [Events].[EventRating] (Table)
+       [Events].[FollowedActivity] (Table)
+       [SecurityManagement].[UserNotifications] (Table)
+       [Events].[FK_Event_Activity] (Foreign Key)
+       [Events].[FK_EventAttendees_Event] (Foreign Key)
+       [Events].[FK_EventAttendees_User] (Foreign Key)
+       [Events].[FK_EventRating_User] (Foreign Key)
+       [Events].[FK_EventRating_Event] (Foreign Key)
+       [Events].[FK_FollowedActivity_Activity] (Foreign Key)
+       [Events].[FK_FollowedActivity_User] (Foreign Key)
+       [SecurityManagement].[FK_UserNotifications_User] (Foreign Key)
+     Alter
+       [SecurityManagement].[User] (Table)
+
+** Supporting actions
+
+The column [SecurityManagement].[User].[CompanyId] is being dropped, data loss could occur.
+The column [SecurityManagement].[User].[DateCreated] on table [SecurityManagement].[User] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [SecurityManagement].[User].[IsEnabled] on table [SecurityManagement].[User] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

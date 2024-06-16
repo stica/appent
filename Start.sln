@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30204.135
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Start.Common", "Start\Start.Common.csproj", "{F32438A2-0B88-4109-ACBB-52CCA1621DCB}"
 EndProject
@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Start.Infrastructure", "Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{4E00718B-C8FD-4F6C-9F12-CCA46561507B}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StartAppDB", "StartAppDB\StartAppDB.sqlproj", "{FA2E2216-0391-4CB7-8165-6F19F3BFAD46}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AppentDB", "StartAppDB\AppentDB.sqlproj", "{FA2E2216-0391-4CB7-8165-6F19F3BFAD46}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{ADD84C44-39DD-4F8F-B870-CA41096D73F1}"
 EndProject
@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceData.Domain", "Mod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Containers", "Containers", "{644035EA-EED7-4E8B-9405-6045AFCDF593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppContainer", "AppContainer\AppContainer.csproj", "{E559BD5A-FB90-49AD-9726-76E6F4D157B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppContainer", "AppContainer\AppContainer.csproj", "{E559BD5A-FB90-49AD-9726-76E6F4D157B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
