@@ -61,12 +61,21 @@
     <Folder Include="Scripts" />
     <Folder Include="Tables\SecurityManagement" />
     <Folder Include="Tables\SecurityManagement\Tables" />
+    <Folder Include="Tables\SecurityManagement\Tables\SecuriytManagement" />
+    <Folder Include="Tables\SecurityManagement\Tables\Events" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\SecurityManagement\Tables\User.sql" />
-    <Build Include="Tables\SecurityManagement\Tables\UserGroup.sql" />
-    <Build Include="Tables\SecurityManagement\Tables\UserUserGroup.sql" />
-    <Build Include="Tables\SecurityManagement\Tables\UserGroupPolicy.sql" />
+    <Build Include="Scripts\Events.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\Events\Event.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\Events\Activity.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\UserUserGroup.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\LoginSession.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\Policy.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\User.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\Events\FollowedActivity.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\Events\EventRating.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\Events\EventAttendees.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\UserNotifications.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="StartAppDB.refactorlog" />
@@ -76,8 +85,7 @@
     <Build Include="Scripts\Security.sql" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\SecurityManagement\Tables\Policy.sql" />
-    <Build Include="Tables\SecurityManagement\Tables\LoginSession.sql" />
-    <Build Include="Tables\SecurityManagement\Tables\Company.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\UserGroup.sql" />
+    <Build Include="Tables\SecurityManagement\Tables\SecuriytManagement\UserGroupPolicy.sql" />
   </ItemGroup>
 </Project>
