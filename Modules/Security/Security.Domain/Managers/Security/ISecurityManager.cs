@@ -20,18 +20,6 @@ namespace Security.Domain.Managers
 
         int CreateUser(AddUserCommand command);
 
-        int CreateCompany(AddCompanyCommand command);
-
-        bool UpdateCompany(UpdateCompanyCommand command);
-
-        List<CompanyView> GetCompanies();
-
-        Company GetCompany(int companyId);
-
-        CompanyView GetCompanyView(int companyId);
-
-        List<UserView> GetUsersForCompany(int companyId);
-
         User GetUser(int userId);
 
         LoginSession GetAccessToken(string refreshToken, string ipAddess);

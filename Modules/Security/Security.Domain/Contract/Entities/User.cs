@@ -1,10 +1,10 @@
 ﻿using Dapper.Contrib.Extensions;
-using Start.Common.Interfaces;
+using System;
 
 namespace Security.Domain.Contract.Entities
 {
     [Table("[SecurityManagement].[User]")]
-    public class User : IAuditable
+    public class User
     {
         [Key]
         public int Id { get; set; }
@@ -21,10 +21,16 @@ namespace Security.Domain.Contract.Entities
 
         public bool IsConfirmed { get; set; }
 
-        public int CompanyId { get; set; }
-
         public bool IsAdmin { get; set; }
 
-        public bool ChangePasswordOnNextLogin { get; set; }
+        public bool? ChangePasswordOnNextLogin { get; set; }
+
+        public int? CityId { get; set; }
+
+        public int? CountryId { get; set; }
+
+        public DateTime DateCreated { get; set; }
+
+        public bool IsEnabled { get; set; }
     }
 }

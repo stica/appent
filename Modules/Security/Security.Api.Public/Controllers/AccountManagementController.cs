@@ -3,11 +3,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Security.Api.Public.Contract.Dtos;
 using Security.Api.Public.Contract.Requests;
-using Security.Api.Public.Contract.Responses;
 using Security.Domain.Contract.Commands;
 using Security.Domain.Managers;
 using Start.Infrastructure;
-using System.Collections.Generic;
 
 namespace Security.Api.Public.Controllers
 {
@@ -40,24 +38,6 @@ namespace Security.Api.Public.Controllers
         {
             var command = _mapper.Map<UpdateUserCommand>(request);
             var result = _securityManager.UpdateUser(command);
-            return Ok(result);
-        }
-
-        [Route("companies")]
-        [HttpGet]
-        public IActionResult GetCompanies()
-        {
-            var companies = _securityManager.GetCompanies();
-            var result = _mapper.Map<List<CompanyResponse>>(companies);
-            return Ok(result);
-        }
-
-        [Route("company/{companyId}/users")]
-        [HttpGet]
-        public IActionResult GetUsersForCompany(int companyId)
-        {
-            var users = _securityManager.GetUsersForCompany(companyId);
-            var result = _mapper.Map<List<UserResponse>>(users);
             return Ok(result);
         }
 

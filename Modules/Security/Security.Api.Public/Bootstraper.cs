@@ -14,7 +14,6 @@ namespace Security.Api.Public
         {
             cfg.CreateMap<AddUserRequest, AddUserCommand>();
             cfg.CreateMap<UpdateUserRequest, UpdateUserCommand>();
-            cfg.CreateMap<CompanyResponse, CompanyView>();
             cfg.CreateMap<UserResponse, UserView>();
             cfg.CreateMap<UserDto, User>();
         }

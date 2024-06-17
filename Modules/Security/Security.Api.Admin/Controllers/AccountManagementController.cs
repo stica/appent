@@ -25,42 +25,6 @@ namespace Security.Api.Admin.Controllers
             _mapper = mapper;
         }
 
-        [Route("company")]
-        [HttpPost]
-        public IActionResult CreateCompany(AddCompanyRequest request)
-        {
-            var command = _mapper.Map<AddCompanyCommand>(request);
-            var result = _securityManager.CreateCompany(command);
-            return Ok(result);
-        }
-
-        [Route("company")]
-        [HttpPut]
-        public IActionResult UpdateCompany(UpdateCompanyRequest request)
-        {
-            var command = _mapper.Map<UpdateCompanyCommand>(request);
-            var result = _securityManager.UpdateCompany(command);
-            return Ok(result);
-        }
-
-        [Route("company/users")]
-        [HttpGet]
-        public IActionResult GetUsersForCompany()
-        {
-            var users = _securityManager.GetUsersForCompany(UserContext.Current.CompanyId);
-            var result = _mapper.Map<List<UserResponse>>(users);
-            return Ok(result);
-        }
-
-        [Route("company")]
-        [HttpGet]
-        public IActionResult GetCompanyData()
-        {
-            var users = _securityManager.GetCompanyView(UserContext.Current.CompanyId);
-            var result = _mapper.Map<List<UserResponse>>(users);
-            return Ok(result);
-        }
-
         [Route("company/user/{userId}")]
         [HttpGet]
         public IActionResult GetUserData(int userId)

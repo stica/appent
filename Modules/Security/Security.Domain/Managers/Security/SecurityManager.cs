@@ -1,6 +1,5 @@
 ﻿using Security.Domain.Contract.Commands;
 using Security.Domain.Contract.Entities;
-using Security.Domain.Contract.Views;
 using Security.Domain.Util;
 using Start;
 using Start.Common.Utils;
@@ -54,7 +53,7 @@ namespace Security.Domain.Managers
                     return null;
                 }
 
-                loginSession.AccessToken = _jwtTokenGenerator.CreateJwtToken(loginSession.UserId.ToString(), user.UserName, user.CompanyId.ToString(), user.IsAdmin);
+                loginSession.AccessToken = _jwtTokenGenerator.CreateJwtToken(loginSession.UserId.ToString(), user.UserName, user.IsAdmin);
 
                 return loginSession;
             }, MethodInfo.Create("GetAccressToken"));
@@ -69,7 +68,7 @@ namespace Security.Domain.Managers
                 throw new SecurityException("User not exists.");
             }
 
-            var jwtToken = _jwtTokenGenerator.CreateJwtToken(user.Id.ToString(), user.UserName, user.CompanyId.ToString(), user.IsAdmin);
+            var jwtToken = _jwtTokenGenerator.CreateJwtToken(user.Id.ToString(), user.UserName, user.IsAdmin);
 
             var session = new LoginSession
             {
@@ -138,7 +137,6 @@ namespace Security.Domain.Managers
             {
                 return (int)ctx.Insert<User>(new User
                 {
-                    CompanyId = command.CompanyId,
                     FirstName = command.FirstName,
                     LastName = command.LastName,
                     IsAdmin = false,
@@ -148,109 +146,6 @@ namespace Security.Domain.Managers
                     IsConfirmed = false,
                 });
             }, MethodInfo.Create("CreateUser"));
-        }
-
-        public int CreateCompany(AddCompanyCommand command)
-        {
-            return ExecuteWithResult(ctx =>
-            {
-                return (int)ctx.Insert<Company>(new Company
-                {
-                    IsAdmin = false,
-                    Addresss = command.Addresss,
-                    IsApproved = false,
-                    Name = command.Name,
-                    NumberOfTrucsAllowed = command.NumberOfTrucsAllowed,
-                    PhoneNumber = command.PhoneNumber,
-                    ShortName = command.ShortName,
-                    State = command.State,
-                });
-            }, MethodInfo.Create("CreateUser"));
-        }
-
-        public bool UpdateCompany(UpdateCompanyCommand command)
-        {
-            return ExecuteWithResult(ctx =>
-            {
-                var companyForUpdate = ctx.Get<Company>(command.Id);
-
-                if (companyForUpdate == null)
-                {
-                    throw new SecurityException("Company not exists");
-                }
-
-                companyForUpdate.IsApproved = command.IsApproved;
-                companyForUpdate.Addresss = command.Addresss;
-                companyForUpdate.PhoneNumber = command.PhoneNumber;
-                companyForUpdate.Name = command.Name;
-                companyForUpdate.ShortName = command.ShortName;
-                companyForUpdate.State = command.State;
-                companyForUpdate.NumberOfTrucsAllowed = command.NumberOfTrucsAllowed;
-
-                return ctx.Update(companyForUpdate);
-
-            }, MethodInfo.Create("CreateUser"));
-        }
-
-        public List<CompanyView> GetCompanies()
-        {
-            return ExecuteWithResult((ctx) =>
-            {
-                return ctx.Query<CompanyView>(
-                    @"SELECT    [Name],
-                                [Addresss],
-                                [PhoneNumber],
-                                [State],
-                                [NumberOfTrucsAllowed],
-                                [ShortName],
-                                [IsApproved],
-                                [IsAdmin]
-                        FROM [StartAppDB].[SecurityManagement].[Company]").ToList();
-            }, MethodInfo.Create("GetCompanies"));
-        }
-
-        public List<UserView> GetUsersForCompany(int companyId)
-        {
-            return ExecuteWithResult((ctx) =>
-            {
-                return ctx.Query<UserView>(
-                    @"SELECT [FirstName],
-                             [LastName],
-                             [UserName],
-                             [Password],
-                             [PhoneNumber],
-                             [IsConfirmed],
-                             [CompanyId],
-                             [IsAdmin]
-                        FROM [StartAppDB].[SecurityManagement].[User] where [CompanyId] = @companyId",
-                    new { companyId }).ToList();
-            }, MethodInfo.Create("GetCompanies"));
-        }
-
-        public Company GetCompany(int companyId)
-        {
-            return ExecuteWithResult(ctx =>
-            {
-                return ctx.Get<Company>(companyId);
-            }, MethodInfo.Create("GetCompany"));
-        }
-
-        public CompanyView GetCompanyView(int companyId)
-        {
-            return ExecuteWithResult(ctx =>
-            {
-                return ctx.Query<CompanyView>(
-                        @"SELECT
-                                [Name],
-                                [Addresss],
-                                [PhoneNumber],
-                                [State],
-                                [NumberOfTrucsAllowed],
-                                [ShortName],
-                                [IsApproved],
-                                [IsAdmin]
-                        FROM [StartAppDB].[SecurityManagement].[Company] where [Id] = @companyId").First();
-            }, MethodInfo.Create("GetCompanyView"));
         }
 
         public User GetUser(int userId)

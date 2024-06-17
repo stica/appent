@@ -20,14 +20,12 @@ namespace Security.Domain.Util
         public string CreateJwtToken(
             string userId,
             string userName,
-            string companyId,
             bool isAdmin)
         {
             var claims = new List<Claim>();
 
             claims.Add(new Claim("UserId", userId));
             claims.Add(new Claim("UserName", userName));
-            claims.Add(new Claim("CompanyId", companyId));
             claims.Add(new Claim("IsAdmin", isAdmin.ToString()));
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secretKey));

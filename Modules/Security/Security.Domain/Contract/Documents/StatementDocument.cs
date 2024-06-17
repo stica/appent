@@ -8,7 +8,7 @@ namespace Security.Domain.Contract.Documents
 
         public bool IsMatched(string module, string action)
         {
-            return Actions.Any(x => x == module + ":" + action));
+            return Actions.Any(x => x == module + ":" + action);
         }
     }
 }
