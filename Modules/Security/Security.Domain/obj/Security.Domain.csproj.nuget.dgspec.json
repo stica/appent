@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {}
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
         "projectName": "Start.Infrastructure",
-        "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ticas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ticas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,29 +86,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
         "projectName": "Security.Domain",
-        "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
-        "packagesPath": "C:\\Users\\ticas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\Security\\Security.Domain\\obj\\",
+        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
+        "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ticas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,14 +127,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ticas\\source\\repos\\Start\\Start\\Start.Common.csproj": {
-                "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Start\\Start.Common.csproj"
+              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj": {
+                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj"
               }
             }
           }
@@ -129,6 +144,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -159,29 +179,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ticas\\source\\repos\\Start\\Start\\Start.Common.csproj": {
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ticas\\source\\repos\\Start\\Start\\Start.Common.csproj",
+        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj",
         "projectName": "Start.Common",
-        "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Start\\Start.Common.csproj",
-        "packagesPath": "C:\\Users\\ticas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ticas\\source\\repos\\Start\\Start\\obj\\",
+        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj",
+        "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ticas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,14 +220,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj"
+              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj"
               }
             }
           }
@@ -205,6 +237,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -227,12 +264,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

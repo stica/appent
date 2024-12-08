@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Security.Api.Public")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36adf80857a1085e15f22f1785d6e97f5c48b83e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Security.Api.Public")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Security.Api.Public")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
