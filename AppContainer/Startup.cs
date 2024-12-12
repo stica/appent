@@ -28,12 +28,12 @@ namespace AppContainer
             //services.AddSingleton(appSettings);
             services.AddSingleton(_configuration);
             services.AddSingleton<CustomConfigurationProvider>();
-            services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("localhost, abortConnect=false"));
+            services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("redis, abortConnect=false"));
             services.AddSingleton<ISnpManager, SnpManager>();
             services.AddSingleton<SnpCacheService>();
             services.AddGraphQLServer()
                     .AddQueryType<Query>()
-                    .AddQueryType<Mutation>()
+                    .AddMutationType<Mutation>()
                     .AddFiltering()
                     .AddSorting();
 
