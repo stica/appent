@@ -488,23 +488,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ticas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\WIN11\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\ReferenceData\\ReferenceData.Domain\\ReferenceData.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\ReferenceData\\ReferenceData.Domain\\ReferenceData.Domain.csproj",
       "projectName": "ReferenceData.Domain",
-      "projectPath": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\ReferenceData\\ReferenceData.Domain\\ReferenceData.Domain.csproj",
-      "packagesPath": "C:\\Users\\ticas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ticas\\source\\repos\\Start\\Modules\\ReferenceData\\ReferenceData.Domain\\obj\\",
+      "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\ReferenceData\\ReferenceData.Domain\\ReferenceData.Domain.csproj",
+      "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\ReferenceData\\ReferenceData.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ticas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -512,6 +508,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -524,6 +521,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -551,7 +553,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

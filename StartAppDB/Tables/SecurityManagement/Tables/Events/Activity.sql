@@ -1,6 +1,0 @@
-﻿CREATE TABLE [Events].[Activity]
-(
-	[Id] INT NOT NULL PRIMARY KEY,
-	[Name] NVARCHAR(100) NOT NULL,
-	[Description] NVARCHAR(MAX) NOT NULL
-)

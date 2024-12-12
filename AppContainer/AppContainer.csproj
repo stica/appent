@@ -1,20 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk.web">
+﻿<Project Sdk="Microsoft.NET.Sdk.web">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <UserSecretsId>9cbc00c2-d8fa-41ed-8d90-44718a714330</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="HotChocolate.AspNetCore" Version="14.2.0" />
+    <PackageReference Include="HotChocolate.Data" Version="14.2.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="NLog.Extensions.Logging" Version="5.2.2" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.2.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.8.22" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure\Start.Infrastructure.csproj" />
-    <ProjectReference Include="..\Modules\Security\Security.Api.Admin\Security.Api.Admin.csproj" />
-    <ProjectReference Include="..\Modules\Security\Security.Api.Public\Security.Api.Public.csproj" />
-    <ProjectReference Include="..\Modules\Security\Security.Domain\Security.Domain.csproj" />
+    <ProjectReference Include="..\Modules\SnpModule\Snp.Api\Snp.Api.csproj" />
   </ItemGroup>
 
 </Project>

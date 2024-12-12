@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e1DvoglIiJM=",
+  "dgSpecHash": "tfg7A8cqKaI=",
   "success": true,
   "projectFilePath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -157,7 +157,7 @@
       "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     },
     {
@@ -167,7 +167,7 @@
       "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]

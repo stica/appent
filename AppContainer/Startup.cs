@@ -3,12 +3,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Security.Api.Public;
-using Security.Domain.Managers;
-using Security.Domain.Services;
+using Snp.Api;
+using Snp.Api.GraphQL.Mutations;
+using Snp.Api.GraphQL.Queries;
+using Snp.Api.SnpCache;
+using Snp.Domain.Managers.Snp;
+using StackExchange.Redis;
+using Start.Common.Classes;
 using Start.Infrastructure.Entites;
-using Start.Infrastructure.Interfaces;
-using Start.Infrastructure.Middlewares;
 
 namespace AppContainer
 {
@@ -22,14 +24,23 @@ namespace AppContainer
 
         public void ConfigureServices(IServiceCollection services)
         {
-            var appSettings = _configuration.GetSection("AppSettings").Get<AppSettings>();
-            services.AddSingleton(appSettings);
+            //var appSettings = _configuration.GetSection("AppSettings").Get<AppSettings>();
+            //services.AddSingleton(appSettings);
+            services.AddSingleton(_configuration);
+            services.AddSingleton<CustomConfigurationProvider>();
+            services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("redis, abortConnect=false"));
+            services.AddSingleton<ISnpManager, SnpManager>();
+            services.AddSingleton<SnpCacheService>();
+            services.AddGraphQLServer()
+                    .AddQueryType<Query>()
+                    .AddMutationType<Mutation>()
+                    .AddFiltering()
+                    .AddSorting();
+
             services.AddAuthorization();
             services.AddControllers();
 
-            services.AddSingleton<ISecurityManager, SecurityManager>();
-            services.AddSingleton<IAuthenticationService, AuthenticationService>();
-            services.AddSingleton<IAuthorizationService, AuthorizationService>();
+            services.AddHttpClient();
 
             services.AddCors(options =>
             {
@@ -41,8 +52,7 @@ namespace AppContainer
 
             var mapper = new MapperConfiguration(cfg =>
             {
-                cfg.SecurityAdminMaps();
-                cfg.SecurityPublicMaps();
+                cfg.SnpModuleMaps();
             }).CreateMapper();
 
             services.AddSingleton(mapper);
@@ -53,12 +63,12 @@ namespace AppContainer
             app.UseCors("AllowSpecificOrigin");
             app.UseRouting();
             app.UseHttpsRedirection();
-            app.UseMiddleware<JwtAuthorizationMiddleware>();
+            //app.UseMiddleware<JwtAuthorizationMiddleware>();
             app.UseAuthorization();
             app.UseAuthentication();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapGraphQL();
             });
         }
     }
