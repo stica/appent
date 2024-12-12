@@ -8,3 +8,13 @@ C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\postdeploy.sql
 C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\predeploy.sql
 C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.dll
 C:\Users\ticas\source\repos\Start\StartAppDB\obj\Debug\StartAppDB.pdb
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\bin\Debug\AppentDB.dacpac
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\bin\Debug\StartAppDB.dll
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\bin\Debug\StartAppDB.pdb
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\AppentDB.sqlproj.AssemblyReference.cache
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\Model.xml
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\refactor.xml
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\postdeploy.sql
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\predeploy.sql
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\StartAppDB.dll
+C:\Users\WIN11\Documents\repos\snp\StartAppDB\obj\Debug\StartAppDB.pdb

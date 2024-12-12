@@ -2,6 +2,7 @@
 using Security.Domain.Contract.Entities;
 using Security.Domain.Util;
 using Start;
+using Start.Common.Classes;
 using Start.Common.Utils;
 using Start.Infrastructure.Entites;
 using System;
@@ -16,10 +17,10 @@ namespace Security.Domain.Managers
     {
         private JwtTokenGenerator _jwtTokenGenerator;
 
-        public SecurityManager(AppSettings appSettings)
+        public SecurityManager(CustomConfigurationProvider appSettings)
             : base(appSettings)
         {
-            _jwtTokenGenerator = new JwtTokenGenerator(appSettings);
+            //_jwtTokenGenerator = new JwtTokenGenerator(appSettings);
         }
 
         public bool VarifyUserCredentials(CreateLoginSession command)

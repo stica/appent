@@ -18,7 +18,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,20 +26,14 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj"
               },
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\Security.Api.Admin.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\Security.Api.Admin.csproj"
-              },
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\Security.Api.Public.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\Security.Api.Public.csproj"
-              },
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj"
+              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\Snp.Api.csproj": {
+                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\Snp.Api.csproj"
               }
             }
           }
@@ -56,9 +50,21 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -70,6 +76,10 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.2.2, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.22, )"
             }
           },
           "imports": [
@@ -83,24 +93,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -127,7 +119,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -135,8 +127,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -152,8 +144,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -195,44 +187,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\Security.Api.Admin.csproj": {
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\Snp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\Security.Api.Admin.csproj",
-        "projectName": "Security.Api.Admin",
-        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\Security.Api.Admin.csproj",
+        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\Snp.Api.csproj",
+        "projectName": "Snp.Api",
+        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\Snp.Api.csproj",
         "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Admin\\obj\\",
+        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\SnpModule\\Snp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -240,11 +218,11 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj"
+              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\Snp.Domain.csproj": {
+                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\Snp.Domain.csproj"
               }
             }
           }
@@ -261,16 +239,28 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "NLog.Extensions.Logging": {
+            "HotChocolate.AspNetCore": {
               "target": "Package",
-              "version": "[5.2.2, )"
+              "version": "[14.2.0, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            },
+            "HotChocolate.Types": {
+              "target": "Package",
+              "version": "[14.2.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.8.22, )"
             }
           },
           "imports": [
@@ -284,44 +274,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\Security.Api.Public.csproj": {
+    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\Snp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\Security.Api.Public.csproj",
-        "projectName": "Security.Api.Public",
-        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\Security.Api.Public.csproj",
+        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\Snp.Domain.csproj",
+        "projectName": "Snp.Domain",
+        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\Snp.Domain.csproj",
         "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Api.Public\\obj\\",
+        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Snp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -329,108 +305,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj"
-              },
-              "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
-                "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Core": {
-              "target": "Package",
-              "version": "[2.2.5, )"
-            },
-            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "NLog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
-        "projectName": "Security.Domain",
-        "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\Security.Domain.csproj",
-        "packagesPath": "C:\\Users\\WIN11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\Security\\Security.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\WIN11\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj": {
                 "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Start\\Start.Common.csproj"
@@ -450,22 +326,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Dapper": {
-              "target": "Package",
-              "version": "[2.0.123, )"
-            },
-            "Dapper.Contrib": {
-              "target": "Package",
-              "version": "[2.0.78, )"
-            },
-            "NLog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -477,26 +339,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -514,7 +362,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -522,8 +370,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj"
@@ -543,8 +391,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "NLog.Extensions.Logging": {
               "target": "Package",
@@ -562,26 +410,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.33, 6.0.33]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

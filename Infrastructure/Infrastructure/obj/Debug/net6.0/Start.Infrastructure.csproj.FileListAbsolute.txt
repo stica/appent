@@ -10,3 +10,16 @@ C:\Users\ticas\source\repos\Start\Infrastructure\Infrastructure\obj\Debug\net6.0
 C:\Users\ticas\source\repos\Start\Infrastructure\Infrastructure\obj\Debug\net6.0\refint\Start.Infrastructure.dll
 C:\Users\ticas\source\repos\Start\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.pdb
 C:\Users\ticas\source\repos\Start\Infrastructure\Infrastructure\obj\Debug\net6.0\ref\Start.Infrastructure.dll
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\bin\Debug\net6.0\Start.Infrastructure.deps.json
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\bin\Debug\net6.0\Start.Infrastructure.dll
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\bin\Debug\net6.0\Start.Infrastructure.pdb
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.AssemblyInfo.cs
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.sourcelink.json
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.dll
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\refint\Start.Infrastructure.dll
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\Start.Infrastructure.pdb
+C:\Users\WIN11\Documents\repos\snp\Infrastructure\Infrastructure\obj\Debug\net6.0\ref\Start.Infrastructure.dll

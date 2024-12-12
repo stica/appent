@@ -8,5 +8,7 @@ namespace Start.Infrastructure
         public string TableName { get; set; }
 
         public PropertyInfo Key { get; set; }
+
+        public bool IsAuditable { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e3XGppEwPnQ=",
+  "dgSpecHash": "MGm1jRprRYk=",
   "success": true,
   "projectFilePath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Modules\\ReferenceData\\ReferenceData.Domain\\ReferenceData.Domain.csproj",
   "expectedPackageFiles": [
@@ -14,10 +14,7 @@
     "C:\\Users\\WIN11\\.nuget\\packages\\nlog\\5.1.2\\nlog.5.1.2.nupkg.sha512",
     "C:\\Users\\WIN11\\.nuget\\packages\\nlog.extensions.logging\\5.2.2\\nlog.extensions.logging.5.2.2.nupkg.sha512",
     "C:\\Users\\WIN11\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+    "C:\\Users\\WIN11\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -10,3 +10,16 @@ C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj
 C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\refint\ReferenceData.Domain.dll
 C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.pdb
 C:\Users\ticas\source\repos\Start\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ref\ReferenceData.Domain.dll
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\net6.0\ReferenceData.Domain.deps.json
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\net6.0\ReferenceData.Domain.dll
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\bin\Debug\net6.0\ReferenceData.Domain.pdb
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.csproj.AssemblyReference.cache
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.AssemblyInfoInputs.cache
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.AssemblyInfo.cs
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.csproj.CoreCompileInputs.cache
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.sourcelink.json
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.dll
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\refint\ReferenceData.Domain.dll
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ReferenceData.Domain.pdb
+C:\Users\WIN11\Documents\repos\snp\Modules\ReferenceData\ReferenceData.Domain\obj\Debug\net6.0\ref\ReferenceData.Domain.dll

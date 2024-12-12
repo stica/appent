@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3sHXQtuWmPo=",
+  "dgSpecHash": "tfg7A8cqKaI=",
   "success": true,
   "projectFilePath": "C:\\Users\\WIN11\\Documents\\repos\\snp\\Infrastructure\\Infrastructure\\Start.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -147,10 +147,7 @@
     "C:\\Users\\WIN11\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.1\\system.threading.tasks.extensions.4.5.1.nupkg.sha512",
     "C:\\Users\\WIN11\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\WIN11\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
-    "C:\\Users\\WIN11\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512"
+    "C:\\Users\\WIN11\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -160,7 +157,7 @@
       "message": "Package 'System.Data.SqlClient' 4.8.5 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "System.Data.SqlClient",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     },
     {
@@ -170,7 +167,7 @@
       "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.27.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]
